@@ -1,0 +1,16 @@
+block variables
+doctype HTML
+html(lang="en")
+	head
+		title
+			| Techademy Powered By - IIHT: MY PROJECT
+		link(rel="stylesheet", href="css/bootstrap.css")
+		link(rel="stylesheet", href="css/bootstrap.min.css")
+		link(rel="stylesheet", href="css/application.css")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+	body
+		include header
+		block content
+		include footer
+		script(src="js/plugin-bundle.js", type="text/javascript")
+		script(src="js/application.js", type="text/javascript")
