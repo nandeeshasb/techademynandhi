@@ -36,7 +36,7 @@ function scss() {
 }
 
 function views() {
-	return gulp.src('./src/views/*.pug')
+	return gulp.src('./src/views/modules/*.pug')
 		.pipe(pug({
 			pretty: true
 		}))
